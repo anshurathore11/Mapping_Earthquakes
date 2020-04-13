@@ -45,6 +45,6 @@ L.geoJson(data, {
   // We turn each feature into a marker on the map.
   onEachFeature: function(feature, layer) {
     console.log(layer);
-    layer.bindPopup("<h3>Airline:" + feature.properties.airline + "</h3><hr><h3>Destination: " + feature.properties.dst + "</h3>");
+    layer.bindPopup("<h3>Airline:" + feature.properties.airline + "</h3><hr><h3>Destination: " + feature.properties. + "</h3>");
   }
 }).addTo(map)});
